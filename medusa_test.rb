@@ -32,14 +32,20 @@ class MedusaTest < Minitest::Test
     assert victim.stoned?
   end
 
-  def test_can_only_have_three_victims
-    skip
-    # your code here
-  end
-
   def test_if_a_fourth_victim_is_stoned_first_is_unstoned
-    skip
-    # your code here
+    medusa = Medusa.new("Cynthia")
+    victim = Person.new("Steve")
+    victim2 = Person.new("Keith")
+    victim3 = Person.new("Todd")
+    victim4 = Person.new("Raj")
+
+    medusa.stare(victim)
+    medusa.stare(victim2)
+    medusa.stare(victim3)
+    medusa.stare(victim4)
+
+    assert victim.stoned?
+
   end
 
 end

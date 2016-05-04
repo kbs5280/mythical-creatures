@@ -10,9 +10,9 @@ A collection of simple exercises to practice Ruby and TDD
 * `hobbit_test.rb` complete
 * `pirate_test.rb` complete
 * `wizard_test.rb` complete
-* `medusa_test.rb` stuck on stoned?
-* `werewolf_test.rb` 
-* `centaur_test.rb`
+* `medusa_test.rb` complete (not sure the last 2 tests are testing anything)
+* `werewolf_test.rb` COMPLETE!
+* `centaur_test.rb` complete
 
 ## Extra Challenges
 
